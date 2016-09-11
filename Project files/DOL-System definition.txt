@@ -1,0 +1,14 @@
+﻿Let V denote L-system an alphabet, V* the set of all words over V , and
+V+ the set of all nonempty words over V. A string OL-system is an
+ordered triplet G = <V, ω,P> where V is the alphabet of the system,
+ω ∈ V+ is a nonempty word called the axiom and P ⊂ V × V* is a
+finite set of productions. A production (a, χ) ∈ P is written as a →
+χ. The letter a and the word χ are called the predecessor and the
+successor of this production, respectively. It is assumed that for any
+letter a ∈ V , there is at least one word χ ∈ V ∗ such that a → χ. If
+no production is explicitly specified for a given predecessor a ∈ V , the
+identity production a → a is assumed to belong to the set of productions
+P. An OL-system is deterministic (noted DOL-system) if and only if
+for each a ∈ V there is exactly one χ ∈ V ∗ such that a → χ. An OL-system
+is deterministic (noted DOL-system) if and only if for each a ∈ V there is
+exactly one χ ∈ V ∗ such that a → χ.
