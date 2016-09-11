@@ -27,3 +27,19 @@
 *.exe
 *.out
 *.app
+
+# C++ Builder Compiler output files
+*.bpi
+*.obj
+*.lib
+*.hpp
+*.i
+*.il?
+*.#??
+*.pbi
+
+# IDE files
+*.~*~
+*.local
+*.identcache
+__history
