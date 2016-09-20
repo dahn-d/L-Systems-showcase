@@ -43,3 +43,10 @@
 *.local
 *.identcache
 __history
+
+# More weird files
+*.stat
+*.map
+*.pdi
+*.tds
+*.res
