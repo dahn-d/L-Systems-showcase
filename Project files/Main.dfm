@@ -123,7 +123,7 @@ object Lab2MainForm: TLab2MainForm
         Height = 163
         Align = alClient
         ItemHeight = 13
-        Mask = '*.txt'
+        Mask = 'L-Systems\*.txt'
         TabOrder = 0
         OnClick = FileListBoxClick
       end
