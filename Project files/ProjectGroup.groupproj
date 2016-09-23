@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9A68EA12-2325-480D-BD6A-7DC1747F255D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Lab2.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TurtlePaintBox.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Lab2">
+        <MSBuild Projects="Lab2.cbproj"/>
+    </Target>
+    <Target Name="Lab2:Clean">
+        <MSBuild Projects="Lab2.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Lab2:Make">
+        <MSBuild Projects="Lab2.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="TurtlePaintBox">
+        <MSBuild Projects="TurtlePaintBox.cbproj"/>
+    </Target>
+    <Target Name="TurtlePaintBox:Clean">
+        <MSBuild Projects="TurtlePaintBox.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TurtlePaintBox:Make">
+        <MSBuild Projects="TurtlePaintBox.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Lab2;TurtlePaintBox"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Lab2:Clean;TurtlePaintBox:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Lab2:Make;TurtlePaintBox:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
