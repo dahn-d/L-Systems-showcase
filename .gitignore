@@ -43,6 +43,8 @@
 *.local
 *.identcache
 __history
+__recovery
+Win32
 
 # More weird files
 *.stat
