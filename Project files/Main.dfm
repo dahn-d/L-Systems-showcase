@@ -3,8 +3,8 @@ object Lab2MainForm: TLab2MainForm
   Top = 55
   BorderStyle = bsNone
   BorderWidth = 1
-  ClientHeight = 698
-  ClientWidth = 859
+  ClientHeight = 696
+  ClientWidth = 857
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,19 +19,18 @@ object Lab2MainForm: TLab2MainForm
   object TurtlePaintBoxPanel: TPanel
     Left = 241
     Top = 0
-    Width = 618
-    Height = 698
+    Width = 616
+    Height = 696
     Align = alClient
     AutoSize = True
     Caption = 'TurtlePaintBoxPanel'
     ShowCaption = False
     TabOrder = 0
-    ExplicitHeight = 655
     object TurtlePaintBox: TTurtlePaintBox
       Left = 1
       Top = 24
-      Width = 616
-      Height = 654
+      Width = 614
+      Height = 652
       Align = alClient
       OnMouseUp = TurtlePaintBoxMouseUp
       ExplicitLeft = 64
@@ -41,8 +40,8 @@ object Lab2MainForm: TLab2MainForm
     end
     object StatusBar: TStatusBar
       Left = 1
-      Top = 678
-      Width = 616
+      Top = 676
+      Width = 614
       Height = 19
       Panels = <
         item
@@ -51,12 +50,11 @@ object Lab2MainForm: TLab2MainForm
         item
           Width = 50
         end>
-      ExplicitTop = 635
     end
     object ToolBar: TToolBar
       Left = 1
       Top = 1
-      Width = 616
+      Width = 614
       Height = 23
       AutoSize = True
       BorderWidth = 1
@@ -105,7 +103,7 @@ object Lab2MainForm: TLab2MainForm
     Left = 0
     Top = 0
     Width = 241
-    Height = 698
+    Height = 696
     VertScrollBar.Tracking = True
     HeaderFont.Charset = DEFAULT_CHARSET
     HeaderFont.Color = clWindowText
@@ -113,13 +111,11 @@ object Lab2MainForm: TLab2MainForm
     HeaderFont.Name = 'Tahoma'
     HeaderFont.Style = []
     TabOrder = 1
-    ExplicitHeight = 655
     object FileListCategoryPanel: TCategoryPanel
       Top = 447
       Height = 210
       Caption = 'File list'
       TabOrder = 0
-      ExplicitWidth = 223
       object FileListBox: TFileListBox
         Left = 0
         Top = 21
@@ -130,9 +126,6 @@ object Lab2MainForm: TLab2MainForm
         Mask = '*.txt'
         TabOrder = 0
         OnClick = FileListBoxClick
-        ExplicitTop = 72
-        ExplicitWidth = 221
-        ExplicitHeight = 112
       end
       object FilesParentFolerEdit: TEdit
         Left = 0
@@ -141,9 +134,6 @@ object Lab2MainForm: TLab2MainForm
         Height = 21
         Align = alTop
         TabOrder = 1
-        ExplicitLeft = 8
-        ExplicitTop = 16
-        ExplicitWidth = 121
       end
     end
     object FractalStringCategoryPanel: TCategoryPanel
@@ -151,7 +141,6 @@ object Lab2MainForm: TLab2MainForm
       Height = 166
       Caption = 'Fractal string'
       TabOrder = 1
-      ExplicitWidth = 223
       object FractalStringMemo: TMemo
         Left = 0
         Top = 21
@@ -160,7 +149,6 @@ object Lab2MainForm: TLab2MainForm
         Align = alClient
         ScrollBars = ssVertical
         TabOrder = 0
-        ExplicitWidth = 221
       end
       object FractalStringLengthEdit: TEdit
         Left = 0
@@ -170,7 +158,6 @@ object Lab2MainForm: TLab2MainForm
         Align = alTop
         ReadOnly = True
         TabOrder = 1
-        ExplicitWidth = 221
       end
     end
     object FileCategoryPanel: TCategoryPanel
@@ -178,7 +165,6 @@ object Lab2MainForm: TLab2MainForm
       Height = 281
       Caption = 'File'
       TabOrder = 2
-      ExplicitWidth = 223
       object FileGridPanel: TGridPanel
         Left = 0
         Top = 0
@@ -244,7 +230,6 @@ object Lab2MainForm: TLab2MainForm
           end>
         ShowCaption = False
         TabOrder = 0
-        ExplicitWidth = 221
         DesignSize = (
           237
           250)
@@ -268,7 +253,6 @@ object Lab2MainForm: TLab2MainForm
           Align = alClient
           ScrollBars = ssVertical
           TabOrder = 0
-          ExplicitWidth = 141
         end
         object InitialTurtleStateMemo: TMemo
           Left = 80
@@ -278,7 +262,6 @@ object Lab2MainForm: TLab2MainForm
           Align = alClient
           ScrollBars = ssVertical
           TabOrder = 1
-          ExplicitWidth = 141
         end
         object IterationLabel: TLabel
           Left = 19
@@ -345,7 +328,6 @@ object Lab2MainForm: TLab2MainForm
           Caption = 'IterationPanel'
           ShowCaption = False
           TabOrder = 3
-          ExplicitWidth = 141
           object IterationMaskEdit: TMaskEdit
             Left = 18
             Top = 9
