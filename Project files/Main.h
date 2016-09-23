@@ -44,6 +44,7 @@ __published:	// IDE-managed Components
 	TPanel *IterationPanel;
 	TMaskEdit *IterationMaskEdit;
 	TEdit *FilesParentFolerEdit;
+	TLabel *FilesParentFolderLabel;
 	void __fastcall ExitToolButtonClick(TObject *Sender);
 	void __fastcall TurtlePaintBoxMouseUp(TObject *Sender, TMouseButton Button, TShiftState Shift,
           int X, int Y);
