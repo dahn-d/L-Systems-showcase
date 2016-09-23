@@ -134,6 +134,7 @@ object Lab2MainForm: TLab2MainForm
         Height = 21
         Align = alTop
         TabOrder = 1
+        OnChange = FilesParentFolerEditChange
       end
     end
     object FractalStringCategoryPanel: TCategoryPanel

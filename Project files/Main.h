@@ -49,6 +49,7 @@ __published:	// IDE-managed Components
           int X, int Y);
 	void __fastcall DrawToolButtonClick(TObject *Sender);
 	void __fastcall FileListBoxClick(TObject *Sender);
+	void __fastcall FilesParentFolerEditChange(TObject *Sender);
 
 
 

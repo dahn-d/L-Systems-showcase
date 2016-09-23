@@ -163,3 +163,9 @@ void __fastcall TLab2MainForm::FileListBoxClick(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TLab2MainForm::FilesParentFolerEditChange(TObject *Sender)
+{
+	FileListBox->Mask = FilesParentFolerEdit->Text + "*.txt";
+}
+//---------------------------------------------------------------------------
+
